@@ -6,7 +6,7 @@ function secondMax(nums) {
     if (nums[i] > firstMax) {
       secondMax = firstMax
       firstMax = nums[i]
-    } else if (nums[i] > secondMax && nums[i] !== firstMax) {
+    } else if (nums[i] > secondMax) {
       secondMax = nums[i]
     }
   }
